@@ -27,3 +27,4 @@ fc-cache -fv
 # Theme
 # Change it using mate-control-center
 wget -N https://raw.githubusercontent.com/zayronxio/Zafiro-icons/master/Install-Zafiro-Icons.sh && chmod +x Install-Zafiro-Icons.sh && bash ./Install-Zafiro-Icons.sh
+rm ~/Install-Zafiro-Icons.sh
