@@ -19,4 +19,11 @@ mkdir -p ~/.vim/undo-dir
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-# Mettre $mod+Shift+Enter exec firefox
+# i3
+sudo apt-get install -y i3
+sudo apt-get install -y rxvt-unicode xsel lxappearance
+fc-cache -fv
+
+# Theme
+# Change it using mate-control-center
+wget -N https://raw.githubusercontent.com/zayronxio/Zafiro-icons/master/Install-Zafiro-Icons.sh && chmod +x Install-Zafiro-Icons.sh && bash ./Install-Zafiro-Icons.sh
